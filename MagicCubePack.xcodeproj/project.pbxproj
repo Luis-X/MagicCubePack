@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1783602D18EC30EAD3CF6EC5 /* libPods-MagicCubePack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CE9CC5671908D648D968A6 /* libPods-MagicCubePack.a */; };
+		D156F736206A296800EC65F7 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D156F731206A296700EC65F7 /* BaseTableViewCell.m */; };
+		D156F737206A296800EC65F7 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D156F733206A296800EC65F7 /* BaseTableView.m */; };
+		D156F738206A296800EC65F7 /* BaseWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D156F735206A296800EC65F7 /* BaseWebView.m */; };
+		D156F742206A2A2500EC65F7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D156F741206A2A2500EC65F7 /* HomeViewController.m */; };
+		D156F745206A2A8C00EC65F7 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D156F744206A2A8C00EC65F7 /* BaseTabBarViewController.m */; };
+		D156F748206A2AD300EC65F7 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D156F747206A2AD300EC65F7 /* BaseNavigationController.m */; };
+		D156F74B206A2B0900EC65F7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D156F74A206A2B0900EC65F7 /* BaseViewController.m */; };
+		D1BB65BD206A3159009BFE55 /* QDThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB65AD206A3159009BFE55 /* QDThemeManager.m */; };
+		D1BB65BE206A3159009BFE55 /* QMUIConfigurationTemplatePinkRose.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB65AE206A3159009BFE55 /* QMUIConfigurationTemplatePinkRose.m */; };
+		D1BB65BF206A3159009BFE55 /* QMUIConfigurationTemplateGrass.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB65B0206A3159009BFE55 /* QMUIConfigurationTemplateGrass.m */; };
+		D1BB65C0206A3159009BFE55 /* QMUIConfigurationTemplateGrapefruit.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB65B2206A3159009BFE55 /* QMUIConfigurationTemplateGrapefruit.m */; };
+		D1BB65C1206A3159009BFE55 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB65B5206A3159009BFE55 /* QMUIConfigurationTemplate.m */; };
+		D1BB65C2206A3159009BFE55 /* QDUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB65B9206A3159009BFE55 /* QDUIHelper.m */; };
+		D1BB65C3206A3159009BFE55 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB65BA206A3159009BFE55 /* UIImageEffects.m */; };
+		D1BB65C4206A3159009BFE55 /* QDCommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB65BB206A3159009BFE55 /* QDCommonUI.m */; };
+		D1E1F85F20611A2800D03028 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F85E20611A2800D03028 /* AppDelegate.m */; };
+		D1E1F86220611A2900D03028 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F86120611A2900D03028 /* ViewController.m */; };
+		D1E1F86520611A2900D03028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F86320611A2900D03028 /* Main.storyboard */; };
+		D1E1F86720611A2900D03028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F86620611A2900D03028 /* Assets.xcassets */; };
+		D1E1F86A20611A2900D03028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F86820611A2900D03028 /* LaunchScreen.storyboard */; };
+		D1E1F86D20611A2900D03028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F86C20611A2900D03028 /* main.m */; };
+		D1E1F87720611A2900D03028 /* MagicCubePackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F87620611A2900D03028 /* MagicCubePackTests.m */; };
+		D1E1F88220611A2900D03028 /* MagicCubePackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F88120611A2900D03028 /* MagicCubePackUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1E1F87320611A2900D03028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1E1F85220611A2800D03028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1E1F85920611A2800D03028;
+			remoteInfo = MagicCubePack;
+		};
+		D1E1F87E20611A2900D03028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1E1F85220611A2800D03028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1E1F85920611A2800D03028;
+			remoteInfo = MagicCubePack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44CE9CC5671908D648D968A6 /* libPods-MagicCubePack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicCubePack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		740C5093342F352E928F9942 /* Pods-MagicCubePack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicCubePack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicCubePack/Pods-MagicCubePack.debug.xcconfig"; sourceTree = "<group>"; };
+		831DF435C7776D277B8FCD09 /* Pods-MagicCubePack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicCubePack.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicCubePack/Pods-MagicCubePack.release.xcconfig"; sourceTree = "<group>"; };
+		D156F730206A296700EC65F7 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		D156F731206A296700EC65F7 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		D156F732206A296700EC65F7 /* BaseWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebView.h; sourceTree = "<group>"; };
+		D156F733206A296800EC65F7 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		D156F734206A296800EC65F7 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		D156F735206A296800EC65F7 /* BaseWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebView.m; sourceTree = "<group>"; };
+		D156F740206A2A2500EC65F7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D156F741206A2A2500EC65F7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D156F743206A2A8C00EC65F7 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		D156F744206A2A8C00EC65F7 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		D156F746206A2AD300EC65F7 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		D156F747206A2AD300EC65F7 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		D156F749206A2B0900EC65F7 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D156F74A206A2B0900EC65F7 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D1818A7A206284D7006E5734 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D1BB657F206A2DBA009BFE55 /* BaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHeader.h; sourceTree = "<group>"; };
+		D1BB65AB206A3159009BFE55 /* QMUIConfigurationTemplateGrass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrass.h; sourceTree = "<group>"; };
+		D1BB65AC206A3159009BFE55 /* QMUIConfigurationTemplateGrapefruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrapefruit.h; sourceTree = "<group>"; };
+		D1BB65AD206A3159009BFE55 /* QDThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDThemeManager.m; sourceTree = "<group>"; };
+		D1BB65AE206A3159009BFE55 /* QMUIConfigurationTemplatePinkRose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplatePinkRose.m; sourceTree = "<group>"; };
+		D1BB65AF206A3159009BFE55 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		D1BB65B0206A3159009BFE55 /* QMUIConfigurationTemplateGrass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateGrass.m; sourceTree = "<group>"; };
+		D1BB65B1206A3159009BFE55 /* QDThemeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDThemeProtocol.h; sourceTree = "<group>"; };
+		D1BB65B2206A3159009BFE55 /* QMUIConfigurationTemplateGrapefruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateGrapefruit.m; sourceTree = "<group>"; };
+		D1BB65B3206A3159009BFE55 /* QDThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDThemeManager.h; sourceTree = "<group>"; };
+		D1BB65B4206A3159009BFE55 /* QMUIConfigurationTemplatePinkRose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplatePinkRose.h; sourceTree = "<group>"; };
+		D1BB65B5206A3159009BFE55 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		D1BB65B7206A3159009BFE55 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		D1BB65B8206A3159009BFE55 /* QDCommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonUI.h; sourceTree = "<group>"; };
+		D1BB65B9206A3159009BFE55 /* QDUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDUIHelper.m; sourceTree = "<group>"; };
+		D1BB65BA206A3159009BFE55 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		D1BB65BB206A3159009BFE55 /* QDCommonUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonUI.m; sourceTree = "<group>"; };
+		D1BB65BC206A3159009BFE55 /* QDUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDUIHelper.h; sourceTree = "<group>"; };
+		D1E1F85A20611A2800D03028 /* MagicCubePack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicCubePack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E1F85D20611A2800D03028 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1E1F85E20611A2800D03028 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1E1F86020611A2900D03028 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1E1F86120611A2900D03028 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1E1F86420611A2900D03028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1E1F86620611A2900D03028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1E1F86920611A2900D03028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1E1F86B20611A2900D03028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E1F86C20611A2900D03028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1E1F87220611A2900D03028 /* MagicCubePackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicCubePackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E1F87620611A2900D03028 /* MagicCubePackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicCubePackTests.m; sourceTree = "<group>"; };
+		D1E1F87820611A2900D03028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E1F87D20611A2900D03028 /* MagicCubePackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicCubePackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E1F88120611A2900D03028 /* MagicCubePackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicCubePackUITests.m; sourceTree = "<group>"; };
+		D1E1F88320611A2900D03028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1E1F85720611A2800D03028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1783602D18EC30EAD3CF6EC5 /* libPods-MagicCubePack.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E1F86F20611A2900D03028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E1F87A20611A2900D03028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D156F717206A28EA00EC65F7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D1BB657F206A2DBA009BFE55 /* BaseHeader.h */,
+				D156F72F206A291C00EC65F7 /* View */,
+				D156F720206A28EA00EC65F7 /* Controller */,
+				D156F71C206A28EA00EC65F7 /* Util */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D156F71C206A28EA00EC65F7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D1BB65AA206A3159009BFE55 /* Configuration */,
+				D1BB65B6206A3159009BFE55 /* Utils */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D156F720206A28EA00EC65F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D156F749206A2B0900EC65F7 /* BaseViewController.h */,
+				D156F74A206A2B0900EC65F7 /* BaseViewController.m */,
+				D156F743206A2A8C00EC65F7 /* BaseTabBarViewController.h */,
+				D156F744206A2A8C00EC65F7 /* BaseTabBarViewController.m */,
+				D156F746206A2AD300EC65F7 /* BaseNavigationController.h */,
+				D156F747206A2AD300EC65F7 /* BaseNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D156F723206A28EA00EC65F7 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				D156F724206A28EA00EC65F7 /* Release */,
+				D156F725206A28EA00EC65F7 /* Manager */,
+				D156F726206A28EA00EC65F7 /* Components */,
+				D156F727206A28EA00EC65F7 /* SDK */,
+				D156F728206A28EA00EC65F7 /* Resource */,
+				D156F729206A28EA00EC65F7 /* Tool */,
+				D156F72A206A28EA00EC65F7 /* Vender */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		D156F724206A28EA00EC65F7 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		D156F725206A28EA00EC65F7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D156F726206A28EA00EC65F7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D156F727206A28EA00EC65F7 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		D156F728206A28EA00EC65F7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D156F729206A28EA00EC65F7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D156F72A206A28EA00EC65F7 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		D156F72F206A291C00EC65F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D156F734206A296800EC65F7 /* BaseTableView.h */,
+				D156F733206A296800EC65F7 /* BaseTableView.m */,
+				D156F730206A296700EC65F7 /* BaseTableViewCell.h */,
+				D156F731206A296700EC65F7 /* BaseTableViewCell.m */,
+				D156F732206A296700EC65F7 /* BaseWebView.h */,
+				D156F735206A296800EC65F7 /* BaseWebView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D156F73C206A29E000EC65F7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D156F73F206A2A0700EC65F7 /* Controller */,
+				D156F73D206A2A0700EC65F7 /* Model */,
+				D156F73E206A2A0700EC65F7 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D156F73D206A2A0700EC65F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D156F73E206A2A0700EC65F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D156F73F206A2A0700EC65F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D156F740206A2A2500EC65F7 /* HomeViewController.h */,
+				D156F741206A2A2500EC65F7 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1BB65AA206A3159009BFE55 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D1BB65B3206A3159009BFE55 /* QDThemeManager.h */,
+				D1BB65AD206A3159009BFE55 /* QDThemeManager.m */,
+				D1BB65B1206A3159009BFE55 /* QDThemeProtocol.h */,
+				D1BB65AF206A3159009BFE55 /* QMUIConfigurationTemplate.h */,
+				D1BB65B5206A3159009BFE55 /* QMUIConfigurationTemplate.m */,
+				D1BB65AC206A3159009BFE55 /* QMUIConfigurationTemplateGrapefruit.h */,
+				D1BB65B2206A3159009BFE55 /* QMUIConfigurationTemplateGrapefruit.m */,
+				D1BB65AB206A3159009BFE55 /* QMUIConfigurationTemplateGrass.h */,
+				D1BB65B0206A3159009BFE55 /* QMUIConfigurationTemplateGrass.m */,
+				D1BB65B4206A3159009BFE55 /* QMUIConfigurationTemplatePinkRose.h */,
+				D1BB65AE206A3159009BFE55 /* QMUIConfigurationTemplatePinkRose.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		D1BB65B6206A3159009BFE55 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D1BB65B8206A3159009BFE55 /* QDCommonUI.h */,
+				D1BB65BB206A3159009BFE55 /* QDCommonUI.m */,
+				D1BB65BC206A3159009BFE55 /* QDUIHelper.h */,
+				D1BB65B9206A3159009BFE55 /* QDUIHelper.m */,
+				D1BB65B7206A3159009BFE55 /* UIImageEffects.h */,
+				D1BB65BA206A3159009BFE55 /* UIImageEffects.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D1E1F85120611A2800D03028 = {
+			isa = PBXGroup;
+			children = (
+				D1E1F85C20611A2800D03028 /* MagicCubePack */,
+				D1E1F87520611A2900D03028 /* MagicCubePackTests */,
+				D1E1F88020611A2900D03028 /* MagicCubePackUITests */,
+				D1E1F85B20611A2800D03028 /* Products */,
+				FC5621B5EE51CF152763490A /* Pods */,
+				FD54358BB6C26AD7163B7A08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D1E1F85B20611A2800D03028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1F85A20611A2800D03028 /* MagicCubePack.app */,
+				D1E1F87220611A2900D03028 /* MagicCubePackTests.xctest */,
+				D1E1F87D20611A2900D03028 /* MagicCubePackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1E1F85C20611A2800D03028 /* MagicCubePack */ = {
+			isa = PBXGroup;
+			children = (
+				D156F73C206A29E000EC65F7 /* Home */,
+				D156F717206A28EA00EC65F7 /* Base */,
+				D156F723206A28EA00EC65F7 /* Package */,
+				D1818A7A206284D7006E5734 /* PrefixHeader.pch */,
+				D1E1F85D20611A2800D03028 /* AppDelegate.h */,
+				D1E1F85E20611A2800D03028 /* AppDelegate.m */,
+				D1E1F86020611A2900D03028 /* ViewController.h */,
+				D1E1F86120611A2900D03028 /* ViewController.m */,
+				D1E1F86320611A2900D03028 /* Main.storyboard */,
+				D1E1F86620611A2900D03028 /* Assets.xcassets */,
+				D1E1F86820611A2900D03028 /* LaunchScreen.storyboard */,
+				D1E1F86B20611A2900D03028 /* Info.plist */,
+				D1E1F86C20611A2900D03028 /* main.m */,
+			);
+			path = MagicCubePack;
+			sourceTree = "<group>";
+		};
+		D1E1F87520611A2900D03028 /* MagicCubePackTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1F87620611A2900D03028 /* MagicCubePackTests.m */,
+				D1E1F87820611A2900D03028 /* Info.plist */,
+			);
+			path = MagicCubePackTests;
+			sourceTree = "<group>";
+		};
+		D1E1F88020611A2900D03028 /* MagicCubePackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1F88120611A2900D03028 /* MagicCubePackUITests.m */,
+				D1E1F88320611A2900D03028 /* Info.plist */,
+			);
+			path = MagicCubePackUITests;
+			sourceTree = "<group>";
+		};
+		FC5621B5EE51CF152763490A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				740C5093342F352E928F9942 /* Pods-MagicCubePack.debug.xcconfig */,
+				831DF435C7776D277B8FCD09 /* Pods-MagicCubePack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD54358BB6C26AD7163B7A08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44CE9CC5671908D648D968A6 /* libPods-MagicCubePack.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1E1F85920611A2800D03028 /* MagicCubePack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E1F88620611A2900D03028 /* Build configuration list for PBXNativeTarget "MagicCubePack" */;
+			buildPhases = (
+				D2C6237EA78D7C02B427A1DB /* [CP] Check Pods Manifest.lock */,
+				D1E1F85620611A2800D03028 /* Sources */,
+				D1E1F85720611A2800D03028 /* Frameworks */,
+				D1E1F85820611A2800D03028 /* Resources */,
+				96F0B39E130FCC03A197303D /* [CP] Embed Pods Frameworks */,
+				3A928E3CCDF8EBA639224F33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicCubePack;
+			productName = MagicCubePack;
+			productReference = D1E1F85A20611A2800D03028 /* MagicCubePack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1E1F87120611A2900D03028 /* MagicCubePackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E1F88920611A2900D03028 /* Build configuration list for PBXNativeTarget "MagicCubePackTests" */;
+			buildPhases = (
+				D1E1F86E20611A2900D03028 /* Sources */,
+				D1E1F86F20611A2900D03028 /* Frameworks */,
+				D1E1F87020611A2900D03028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1E1F87420611A2900D03028 /* PBXTargetDependency */,
+			);
+			name = MagicCubePackTests;
+			productName = MagicCubePackTests;
+			productReference = D1E1F87220611A2900D03028 /* MagicCubePackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1E1F87C20611A2900D03028 /* MagicCubePackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E1F88C20611A2900D03028 /* Build configuration list for PBXNativeTarget "MagicCubePackUITests" */;
+			buildPhases = (
+				D1E1F87920611A2900D03028 /* Sources */,
+				D1E1F87A20611A2900D03028 /* Frameworks */,
+				D1E1F87B20611A2900D03028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1E1F87F20611A2900D03028 /* PBXTargetDependency */,
+			);
+			name = MagicCubePackUITests;
+			productName = MagicCubePackUITests;
+			productReference = D1E1F87D20611A2900D03028 /* MagicCubePackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1E1F85220611A2800D03028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LuisX;
+				TargetAttributes = {
+					D1E1F85920611A2800D03028 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D1E1F87120611A2900D03028 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1E1F85920611A2800D03028;
+					};
+					D1E1F87C20611A2900D03028 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1E1F85920611A2800D03028;
+					};
+				};
+			};
+			buildConfigurationList = D1E1F85520611A2800D03028 /* Build configuration list for PBXProject "MagicCubePack" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1E1F85120611A2800D03028;
+			productRefGroup = D1E1F85B20611A2800D03028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1E1F85920611A2800D03028 /* MagicCubePack */,
+				D1E1F87120611A2900D03028 /* MagicCubePackTests */,
+				D1E1F87C20611A2900D03028 /* MagicCubePackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1E1F85820611A2800D03028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E1F86A20611A2900D03028 /* LaunchScreen.storyboard in Resources */,
+				D1E1F86720611A2900D03028 /* Assets.xcassets in Resources */,
+				D1E1F86520611A2900D03028 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E1F87020611A2900D03028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E1F87B20611A2900D03028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A928E3CCDF8EBA639224F33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MagicCubePack/Pods-MagicCubePack-resources.sh",
+				"${PODS_ROOT}/ATSDK-Weex/ATSDK.framework/Versions/A/Resources/ATSDK.bundle",
+				"${PODS_ROOT}/ATSDK-Weex/ATSDK.framework/Versions/A/Resources/en.lproj",
+				"${PODS_ROOT}/ATSDK-Weex/ATSDK.framework/Versions/A/Resources/zh-Hans.lproj",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/Optional/ShareSDKUI.bundle",
+				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ATSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDKUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicCubePack/Pods-MagicCubePack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F0B39E130FCC03A197303D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicCubePack/Pods-MagicCubePack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C6237EA78D7C02B427A1DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicCubePack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1E1F85620611A2800D03028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D156F736206A296800EC65F7 /* BaseTableViewCell.m in Sources */,
+				D1E1F86220611A2900D03028 /* ViewController.m in Sources */,
+				D1BB65C1206A3159009BFE55 /* QMUIConfigurationTemplate.m in Sources */,
+				D156F74B206A2B0900EC65F7 /* BaseViewController.m in Sources */,
+				D1BB65BF206A3159009BFE55 /* QMUIConfigurationTemplateGrass.m in Sources */,
+				D1E1F86D20611A2900D03028 /* main.m in Sources */,
+				D156F737206A296800EC65F7 /* BaseTableView.m in Sources */,
+				D1BB65BE206A3159009BFE55 /* QMUIConfigurationTemplatePinkRose.m in Sources */,
+				D1BB65BD206A3159009BFE55 /* QDThemeManager.m in Sources */,
+				D156F748206A2AD300EC65F7 /* BaseNavigationController.m in Sources */,
+				D1BB65C2206A3159009BFE55 /* QDUIHelper.m in Sources */,
+				D1BB65C4206A3159009BFE55 /* QDCommonUI.m in Sources */,
+				D156F738206A296800EC65F7 /* BaseWebView.m in Sources */,
+				D156F745206A2A8C00EC65F7 /* BaseTabBarViewController.m in Sources */,
+				D1BB65C0206A3159009BFE55 /* QMUIConfigurationTemplateGrapefruit.m in Sources */,
+				D1E1F85F20611A2800D03028 /* AppDelegate.m in Sources */,
+				D156F742206A2A2500EC65F7 /* HomeViewController.m in Sources */,
+				D1BB65C3206A3159009BFE55 /* UIImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E1F86E20611A2900D03028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E1F87720611A2900D03028 /* MagicCubePackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E1F87920611A2900D03028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E1F88220611A2900D03028 /* MagicCubePackUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1E1F87420611A2900D03028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1E1F85920611A2800D03028 /* MagicCubePack */;
+			targetProxy = D1E1F87320611A2900D03028 /* PBXContainerItemProxy */;
+		};
+		D1E1F87F20611A2900D03028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1E1F85920611A2800D03028 /* MagicCubePack */;
+			targetProxy = D1E1F87E20611A2900D03028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1E1F86320611A2900D03028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E1F86420611A2900D03028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1E1F86820611A2900D03028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E1F86920611A2900D03028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1E1F88420611A2900D03028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1E1F88520611A2900D03028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1E1F88720611A2900D03028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740C5093342F352E928F9942 /* Pods-MagicCubePack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS5VMXEH8P;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MagicCubePack/PrefixHeader.pch";
+				INFOPLIST_FILE = MagicCubePack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luisx.MagicCubePack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1E1F88820611A2900D03028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831DF435C7776D277B8FCD09 /* Pods-MagicCubePack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS5VMXEH8P;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MagicCubePack/PrefixHeader.pch";
+				INFOPLIST_FILE = MagicCubePack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luisx.MagicCubePack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1E1F88A20611A2900D03028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS5VMXEH8P;
+				INFOPLIST_FILE = MagicCubePackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luisx.MagicCubePackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicCubePack.app/MagicCubePack";
+			};
+			name = Debug;
+		};
+		D1E1F88B20611A2900D03028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS5VMXEH8P;
+				INFOPLIST_FILE = MagicCubePackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luisx.MagicCubePackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicCubePack.app/MagicCubePack";
+			};
+			name = Release;
+		};
+		D1E1F88D20611A2900D03028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS5VMXEH8P;
+				INFOPLIST_FILE = MagicCubePackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luisx.MagicCubePackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicCubePack;
+			};
+			name = Debug;
+		};
+		D1E1F88E20611A2900D03028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS5VMXEH8P;
+				INFOPLIST_FILE = MagicCubePackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luisx.MagicCubePackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicCubePack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1E1F85520611A2800D03028 /* Build configuration list for PBXProject "MagicCubePack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E1F88420611A2900D03028 /* Debug */,
+				D1E1F88520611A2900D03028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E1F88620611A2900D03028 /* Build configuration list for PBXNativeTarget "MagicCubePack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E1F88720611A2900D03028 /* Debug */,
+				D1E1F88820611A2900D03028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E1F88920611A2900D03028 /* Build configuration list for PBXNativeTarget "MagicCubePackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E1F88A20611A2900D03028 /* Debug */,
+				D1E1F88B20611A2900D03028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E1F88C20611A2900D03028 /* Build configuration list for PBXNativeTarget "MagicCubePackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E1F88D20611A2900D03028 /* Debug */,
+				D1E1F88E20611A2900D03028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1E1F85220611A2800D03028 /* Project object */;
+}
