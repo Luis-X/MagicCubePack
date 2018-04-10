@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "WeexViewController.h"
 
 @interface HomeViewController ()
 
@@ -45,7 +46,7 @@
 
 - (void)buttonAction
 {
-    HomeViewController *viewController = [HomeViewController new];
+    WeexViewController *viewController = [WeexViewController new];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 @end

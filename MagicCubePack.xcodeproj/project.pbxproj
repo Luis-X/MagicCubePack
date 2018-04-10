@@ -15,6 +15,15 @@
 		D156F745206A2A8C00EC65F7 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D156F744206A2A8C00EC65F7 /* BaseTabBarViewController.m */; };
 		D156F748206A2AD300EC65F7 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D156F747206A2AD300EC65F7 /* BaseNavigationController.m */; };
 		D156F74B206A2B0900EC65F7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D156F74A206A2B0900EC65F7 /* BaseViewController.m */; };
+		D1AAE9442074CB5200AF33C2 /* WeexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AAE9432074CB5200AF33C2 /* WeexViewController.m */; };
+		D1AAE94E2074CBE300AF33C2 /* UIViewController+WXDemoNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AAE9462074CBE200AF33C2 /* UIViewController+WXDemoNaviBar.m */; };
+		D1AAE94F2074CBE300AF33C2 /* WXScannerHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AAE9492074CBE200AF33C2 /* WXScannerHistoryVC.m */; };
+		D1AAE9502074CBE300AF33C2 /* WXScannerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AAE94C2074CBE200AF33C2 /* WXScannerVC.m */; };
+		D1AAE9672074D1C800AF33C2 /* WXSJNetworkDefaultlmpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AAE9532074D1C700AF33C2 /* WXSJNetworkDefaultlmpl.m */; };
+		D1AAE9682074D1C800AF33C2 /* WXSJResourceRequestHandlerDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AAE9572074D1C700AF33C2 /* WXSJResourceRequestHandlerDefaultImpl.m */; };
+		D1AAE9692074D1C800AF33C2 /* WXSJThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AAE9592074D1C700AF33C2 /* WXSJThreadSafeMutableDictionary.m */; };
+		D1AAE96A2074D1C800AF33C2 /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AAE95C2074D1C700AF33C2 /* WXImgLoaderDefaultImpl.m */; };
+		D1AAE9722074D1F300AF33C2 /* WeexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AAE9712074D1F300AF33C2 /* WeexManager.m */; };
 		D1BB65BD206A3159009BFE55 /* QDThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB65AD206A3159009BFE55 /* QDThemeManager.m */; };
 		D1BB65BE206A3159009BFE55 /* QMUIConfigurationTemplatePinkRose.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB65AE206A3159009BFE55 /* QMUIConfigurationTemplatePinkRose.m */; };
 		D1BB65BF206A3159009BFE55 /* QMUIConfigurationTemplateGrass.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB65B0206A3159009BFE55 /* QMUIConfigurationTemplateGrass.m */; };
@@ -69,6 +78,25 @@
 		D156F749206A2B0900EC65F7 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		D156F74A206A2B0900EC65F7 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		D1818A7A206284D7006E5734 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D1AAE9422074CB5200AF33C2 /* WeexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeexViewController.h; sourceTree = "<group>"; };
+		D1AAE9432074CB5200AF33C2 /* WeexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexViewController.m; sourceTree = "<group>"; };
+		D1AAE9462074CBE200AF33C2 /* UIViewController+WXDemoNaviBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXDemoNaviBar.m"; sourceTree = "<group>"; };
+		D1AAE9472074CBE200AF33C2 /* DemoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoDefine.h; sourceTree = "<group>"; };
+		D1AAE9492074CBE200AF33C2 /* WXScannerHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXScannerHistoryVC.m; sourceTree = "<group>"; };
+		D1AAE94A2074CBE200AF33C2 /* WXScannerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScannerVC.h; sourceTree = "<group>"; };
+		D1AAE94B2074CBE200AF33C2 /* WXScannerHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScannerHistoryVC.h; sourceTree = "<group>"; };
+		D1AAE94C2074CBE200AF33C2 /* WXScannerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXScannerVC.m; sourceTree = "<group>"; };
+		D1AAE94D2074CBE200AF33C2 /* UIViewController+WXDemoNaviBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXDemoNaviBar.h"; sourceTree = "<group>"; };
+		D1AAE9532074D1C700AF33C2 /* WXSJNetworkDefaultlmpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSJNetworkDefaultlmpl.m; sourceTree = "<group>"; };
+		D1AAE9542074D1C700AF33C2 /* WXSJNetworkDefaultlmpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSJNetworkDefaultlmpl.h; sourceTree = "<group>"; };
+		D1AAE9562074D1C700AF33C2 /* WXSJThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSJThreadSafeMutableDictionary.h; sourceTree = "<group>"; };
+		D1AAE9572074D1C700AF33C2 /* WXSJResourceRequestHandlerDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSJResourceRequestHandlerDefaultImpl.m; sourceTree = "<group>"; };
+		D1AAE9582074D1C700AF33C2 /* WXSJResourceRequestHandlerDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSJResourceRequestHandlerDefaultImpl.h; sourceTree = "<group>"; };
+		D1AAE9592074D1C700AF33C2 /* WXSJThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSJThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
+		D1AAE95B2074D1C700AF33C2 /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
+		D1AAE95C2074D1C700AF33C2 /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
+		D1AAE9702074D1F300AF33C2 /* WeexManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeexManager.h; sourceTree = "<group>"; };
+		D1AAE9712074D1F300AF33C2 /* WeexManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeexManager.m; sourceTree = "<group>"; };
 		D1BB657F206A2DBA009BFE55 /* BaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHeader.h; sourceTree = "<group>"; };
 		D1BB65AB206A3159009BFE55 /* QMUIConfigurationTemplateGrass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrass.h; sourceTree = "<group>"; };
 		D1BB65AC206A3159009BFE55 /* QMUIConfigurationTemplateGrapefruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrapefruit.h; sourceTree = "<group>"; };
@@ -273,6 +301,112 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		D1AAE93E2074CAE000AF33C2 /* Weex */ = {
+			isa = PBXGroup;
+			children = (
+				D1AAE96F2074D1F300AF33C2 /* Manager */,
+				D1AAE95D2074D1C700AF33C2 /* Component */,
+				D1AAE9512074D1C700AF33C2 /* Handler */,
+				D1AAE9622074D1C800AF33C2 /* Module */,
+				D1AAE9452074CBE200AF33C2 /* Tools */,
+				D1AAE93F2074CAE000AF33C2 /* Controller */,
+			);
+			path = Weex;
+			sourceTree = "<group>";
+		};
+		D1AAE93F2074CAE000AF33C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1AAE9422074CB5200AF33C2 /* WeexViewController.h */,
+				D1AAE9432074CB5200AF33C2 /* WeexViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1AAE9452074CBE200AF33C2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D1AAE9462074CBE200AF33C2 /* UIViewController+WXDemoNaviBar.m */,
+				D1AAE9472074CBE200AF33C2 /* DemoDefine.h */,
+				D1AAE9482074CBE200AF33C2 /* Scanner */,
+				D1AAE94D2074CBE200AF33C2 /* UIViewController+WXDemoNaviBar.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D1AAE9482074CBE200AF33C2 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				D1AAE9492074CBE200AF33C2 /* WXScannerHistoryVC.m */,
+				D1AAE94A2074CBE200AF33C2 /* WXScannerVC.h */,
+				D1AAE94B2074CBE200AF33C2 /* WXScannerHistoryVC.h */,
+				D1AAE94C2074CBE200AF33C2 /* WXScannerVC.m */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		D1AAE9512074D1C700AF33C2 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				D1AAE9522074D1C700AF33C2 /* URLRewrite */,
+				D1AAE9552074D1C700AF33C2 /* ResourceRequestHandler */,
+				D1AAE95A2074D1C700AF33C2 /* ImageLoader */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		D1AAE9522074D1C700AF33C2 /* URLRewrite */ = {
+			isa = PBXGroup;
+			children = (
+				D1AAE9542074D1C700AF33C2 /* WXSJNetworkDefaultlmpl.h */,
+				D1AAE9532074D1C700AF33C2 /* WXSJNetworkDefaultlmpl.m */,
+			);
+			path = URLRewrite;
+			sourceTree = "<group>";
+		};
+		D1AAE9552074D1C700AF33C2 /* ResourceRequestHandler */ = {
+			isa = PBXGroup;
+			children = (
+				D1AAE9582074D1C700AF33C2 /* WXSJResourceRequestHandlerDefaultImpl.h */,
+				D1AAE9572074D1C700AF33C2 /* WXSJResourceRequestHandlerDefaultImpl.m */,
+				D1AAE9562074D1C700AF33C2 /* WXSJThreadSafeMutableDictionary.h */,
+				D1AAE9592074D1C700AF33C2 /* WXSJThreadSafeMutableDictionary.m */,
+			);
+			path = ResourceRequestHandler;
+			sourceTree = "<group>";
+		};
+		D1AAE95A2074D1C700AF33C2 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				D1AAE95B2074D1C700AF33C2 /* WXImgLoaderDefaultImpl.h */,
+				D1AAE95C2074D1C700AF33C2 /* WXImgLoaderDefaultImpl.m */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+		D1AAE95D2074D1C700AF33C2 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		D1AAE9622074D1C800AF33C2 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		D1AAE96F2074D1F300AF33C2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D1AAE9702074D1F300AF33C2 /* WeexManager.h */,
+				D1AAE9712074D1F300AF33C2 /* WeexManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		D1BB65AA206A3159009BFE55 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,6 +463,7 @@
 		D1E1F85C20611A2800D03028 /* MagicCubePack */ = {
 			isa = PBXGroup;
 			children = (
+				D1AAE93E2074CAE000AF33C2 /* Weex */,
 				D156F73C206A29E000EC65F7 /* Home */,
 				D156F717206A28EA00EC65F7 /* Base */,
 				D156F723206A28EA00EC65F7 /* Package */,
@@ -603,12 +738,21 @@
 				D156F748206A2AD300EC65F7 /* BaseNavigationController.m in Sources */,
 				D1BB65C2206A3159009BFE55 /* QDUIHelper.m in Sources */,
 				D1BB65C4206A3159009BFE55 /* QDCommonUI.m in Sources */,
+				D1AAE9682074D1C800AF33C2 /* WXSJResourceRequestHandlerDefaultImpl.m in Sources */,
 				D156F738206A296800EC65F7 /* BaseWebView.m in Sources */,
 				D156F745206A2A8C00EC65F7 /* BaseTabBarViewController.m in Sources */,
+				D1AAE9442074CB5200AF33C2 /* WeexViewController.m in Sources */,
 				D1BB65C0206A3159009BFE55 /* QMUIConfigurationTemplateGrapefruit.m in Sources */,
+				D1AAE9692074D1C800AF33C2 /* WXSJThreadSafeMutableDictionary.m in Sources */,
+				D1AAE9502074CBE300AF33C2 /* WXScannerVC.m in Sources */,
+				D1AAE94E2074CBE300AF33C2 /* UIViewController+WXDemoNaviBar.m in Sources */,
 				D1E1F85F20611A2800D03028 /* AppDelegate.m in Sources */,
+				D1AAE94F2074CBE300AF33C2 /* WXScannerHistoryVC.m in Sources */,
+				D1AAE9672074D1C800AF33C2 /* WXSJNetworkDefaultlmpl.m in Sources */,
+				D1AAE9722074D1F300AF33C2 /* WeexManager.m in Sources */,
 				D156F742206A2A2500EC65F7 /* HomeViewController.m in Sources */,
 				D1BB65C3206A3159009BFE55 /* UIImageEffects.m in Sources */,
+				D1AAE96A2074D1C800AF33C2 /* WXImgLoaderDefaultImpl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

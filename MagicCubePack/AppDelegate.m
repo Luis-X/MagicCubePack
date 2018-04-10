@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <WeexSDK.h>
+#import "WeexManager.h"
 #import "HomeViewController.h"
 
 @interface AppDelegate ()
@@ -21,6 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [self startMainUIWindow];
+    [WeexManager start];
     return YES;
 }
 
@@ -145,35 +146,5 @@
     // window root controller
     tabBarViewController.viewControllers = @[homeNavController];
     return tabBarViewController;
-}
-
-- (void)startWeexSDK
-{
-    //business configuration
-    [WXAppConfiguration setAppGroup:@"AliApp"];
-    [WXAppConfiguration setAppName:@"WeexDemo"];
-    [WXAppConfiguration setExternalUserAgent:@"ExternalUA"];
-    //init sdk environment
-    [WXSDKEngine initSDKEnvironment];
-    //register custom module and component，optional
-    //    [WXSDKEngine registerHandler:[WXImgLoaderDefaultImpl new] withProtocol:@protocol(WXImgLoaderProtocol)];
-    //    [WXSDKEngine registerHandler:[WXEventModule new] withProtocol:@protocol(WXEventModuleProtocol)];
-    //    [WXSDKEngine registerHandler:[WXConfigCenterDefaultImpl new] withProtocol:@protocol(WXConfigCenterProtocol)];
-    
-    //    [WXSDKEngine registerComponent:@"select" withClass:NSClassFromString(@"WXSelectComponent")];
-    //    [WXSDKEngine registerModule:@"event" withClass:[WXEventModule class]];
-    //    [WXSDKEngine registerModule:@"syncTest" withClass:[WXSyncTestModule class]];
-    //    [WXSDKEngine registerExtendCallNative:@"test" withClass:NSClassFromString(@"WXExtendCallNativeTest")];
-    //    [WXSDKEngine registerModule:@"ext" withClass:[WXExtModule class]];
-    
-    //set the log level
-#ifdef DEBUG
-    [WXDebugTool setDebug:YES];
-    [WXLog setLogLevel:WXLogLevelLog];
-#else
-    [WXDebugTool setDebug:NO];
-    [WXLog setLogLevel:WXLogLevelError];
-#endif
-    
 }
 @end
